@@ -24,7 +24,7 @@ public class QuestionService {
     public Question getQuestionFromUser() {
         System.out.println("Enter question id: ");
         int id = s.nextInt();
-        System.out.println("Enter question: ");
+        System.out.println("Enter question text: ");
         s.nextLine();
         String qT = s.nextLine();
         System.out.println("Enter option A: ");
