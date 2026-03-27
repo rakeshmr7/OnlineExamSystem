@@ -50,7 +50,7 @@ public class AppTest
     }
     @Test
     public void createMember(){
-        mDao.register(new Member(100, "Test", "Test@123"));
+        mDao.register(new Member(100, "Test", "Test@1234"));
         Member member = mDao.getMember(100);
         assertNotNull(member);
     }
